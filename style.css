@@ -67,16 +67,29 @@ botton {
     font-weight: 400;
 }
 
+
 .but-sedan {
-    color: hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);    
+}
+
+.but-sedan:hover{
+    cursor: pointer;
 }
 
 .but-suv {
     color: hsl(184, 100%, 22%);
 }
 
+.but-suv:hover {
+    cursor: pointer;
+}
+
 .but-luxury {
     color: hsl(179, 100%, 13%);
+}
+
+.but-luxury:hover{
+    cursor: pointer;
 }
 
 .content {
