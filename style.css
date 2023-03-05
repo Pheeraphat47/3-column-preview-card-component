@@ -8,20 +8,18 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
 main {
-    margin-top: 4rem;
+    margin-top: 12rem;
 }
 
 #container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    flex-direction: column;
     margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
 }
@@ -110,7 +108,7 @@ footer {
     font-size: 16px;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -121,10 +119,12 @@ footer a {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {    
+
     #container {
         flex-direction: row;
     }
+
 
     .sedan {
         border-radius: 10px 0 0 10px;
